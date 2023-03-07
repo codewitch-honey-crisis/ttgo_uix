@@ -24,9 +24,12 @@
 using namespace arduino;
 using namespace gfx;
 using namespace uix;
+// SVG converted to header using
+//https://honeythecodewitch.com/gfx/converter
+#include <bee_icon.hpp>
 // downloaded from fontsquirrel.com and header generated with
 // https://honeythecodewitch.com/gfx/generator
-#include <bee_icon.hpp>
+
 #include <fonts/Telegrama.hpp>
 static const open_font& text_font = Telegrama;
 
