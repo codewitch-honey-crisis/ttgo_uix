@@ -237,7 +237,7 @@ void setup() {
     button_b.on_pressed_changed([](bool pressed, void* state) {
         Serial.println("button_b");
         if (pressed) {
-            main_screen.background_color(color_t::black);
+            main_screen.background_color(color_t::light_green);
         } else {
             main_screen.background_color(color_t::white);
         }
